@@ -5,5 +5,5 @@
   - name: Creating an empty file
     file:
       path: "/tmp/automated.txt"
-      state: rm
+      state: absent
 
